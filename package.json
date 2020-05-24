@@ -1,0 +1,17 @@
+{
+  "name": "twitter-sentimental",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "GOOGLE_APPLICATION_CREDENTIALS='./credentials.json' node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/language": "^4.0.0",
+    "dotenv": "^8.2.0",
+    "twitter-lite": "^0.13.0"
+  }
+}
